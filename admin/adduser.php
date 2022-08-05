@@ -55,12 +55,16 @@
                                         </select>
                                     </div>
 
-                                    <div class="alert alert-danger">
+                                    <div class="alert alert-danger" id="error" style="display: none">
                                         This Username Already Exist! Please Try Another.
                                     </div>
 
+                                    <div class="alert alert-success" id="success" style="display: ">
+                                        Record Inserted successfully
+                                    </div>
+
                             <div class="form-actions">
-                                <button type="submit" class="btn btn-success" style="display: none">Save</button>
+                                <button type="submit" class="btn btn-success">Save</button>
                             </div>
 
 
