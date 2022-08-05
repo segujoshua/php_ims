@@ -40,11 +40,20 @@
                                     </div>
                             </div>
                             <div class="control-group">
-                                <label class="control-label">Password input</label>
+                                <label class="control-label">Password </label>
                                 <div class="controls">
                                     <input type="password"  class="span11" placeholder="Enter Password"  name="password" />
                                 </div>
                             </div>
+
+                                <div class="control-group">
+                                    <label class="control-label">Role :</label>
+                                    <div class="controls">
+                                        <select name="role" class="span11">
+                                            <option>user</option>
+                                            <option>admin</option>
+                                        </select>
+                                    </div>
 
                             <div class="form-actions">
                                 <button type="submit" class="btn btn-success">Save</button>
