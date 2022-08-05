@@ -58,6 +58,10 @@
                             <div class="form-actions">
                                 <button type="submit" class="btn btn-success">Save</button>
                             </div>
+
+                                    <div class="alert alert-danger">
+                                        This Username Already Exist! Please Try Another.
+                                    </div>
                         </form>
                     </div>
                 </div>
